@@ -33,7 +33,7 @@ export class AppController {
   topQuotes(){
     return{
       
-      
+      quoteRandom: quotes.quotes[ Math.floor(Math.random()*(quotes.quotes.length)+1)]
     };
   }
 }
